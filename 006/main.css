@@ -1,0 +1,13 @@
+h1 {
+  color: olive;
+  font-family: sans-serif;
+}
+
+code {
+  font-family: monospace;
+  color: red;
+}
+
+.second-li code {
+  color: green;
+}
