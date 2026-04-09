@@ -1,6 +1,14 @@
+body {
+  font-family: sans-serif;
+}
+
 h1 {
   color: olive;
   font-family: sans-serif;
+}
+
+.second-li code {
+  color: green;
 }
 
 code {
@@ -8,6 +16,16 @@ code {
   color: red;
 }
 
-.second-li code {
-  color: green;
+li {
+  font-family: inherit;
+}
+
+li ~ li {
+  background: black;
+  color: white;
+}
+
+ol li {
+  background: black;
+  color: white;
 }
