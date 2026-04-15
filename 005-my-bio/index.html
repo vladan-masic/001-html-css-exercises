@@ -39,15 +39,18 @@
         </section>
         <section>
             <h2>Contact Me</h2>
-            <form>
+            <form action="#" method="post">
                 <label for="name">Your Name:</label>
-                <input type="text" placeholder="Enter Your Name" id="name">
+                <br>
+                <input type="text" placeholder="Enter Your Name" id="name" name="name" required>
                 <br><br>
                 <label for="email">Your Email:</label>
-                <input type="email" placeholder="Enter Your Email" id="email">
+                <br>
+                <input type="email" placeholder="Enter Your Email" id="email" name="email" required>
                 <br><br>
                 <label for="message">Your Message:</label>
-                <textarea placeholder="Your Message" id="message" cols="20" rows="4"></textarea>
+                <br>
+                <textarea placeholder="Your Message" id="message" rows="4" name="message" required></textarea>
                 <br><br>
                 <button type="submit">Submit</button>
             </form>
