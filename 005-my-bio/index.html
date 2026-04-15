@@ -11,13 +11,13 @@
     <header>
         <h1>My Biography</h1>
         <nav>
-            <a href="#">About</a>
-            <a href="#">Books</a>
-            <a href="#">Contact</a>
+            <a href="#about">About</a>
+            <a href="#books">Books</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
     <main>
-        <section>
+        <section id="about">
             <article>
                 <h2>About Me</h2>
                 <p>
@@ -29,7 +29,7 @@
                 <p>Favorite genre: History</p>
             </aside>
         </section>
-        <section>
+        <section id="books">
             <article>
                 <h2>Favorite Books</h2>
                 <p>My favorite books are:</p>
@@ -51,25 +51,34 @@
                     alt="Cover of Thinking, Fast and Slow by Daniel Kahneman" />
             </article>
         </section>
-        <section>
-            <article>
-                <h2>Contact Me</h2>
-                <form action="#" method="post">
-                    <label for="name">Your Name:</label>
-                    <br>
-                    <input type="text" placeholder="Enter your Name" id="name" name="name" required>
-                    <br><br>
-                    <label for="email">Your Email:</label>
-                    <br>
-                    <input type="email" placeholder="Enter your Email" id="email" name="email" required>
-                    <br><br>
-                    <label for="message">Your Message:</label>
-                    <br>
-                    <textarea placeholder="Your message" id="message" rows="4" name="message" required></textarea>
-                    <br><br>
-                    <button type="submit">Submit</button>
-                </form>
-            </article>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <br>
+                <input type="text" placeholder="Enter your Name" id="name" name="name" required>
+                <br><br>
+                <label for="email">Your Email:</label>
+                <br>
+                <input type="email" placeholder="Enter your Email" id="email" name="email" required>
+                <br><br>
+                <label for="message">Your Message:</label>
+                <br>
+                <textarea placeholder="Your message" id="message" rows="4" name="message" required></textarea>
+                <br><br>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Subscribe to newsletter</label>
+                <br><br>
+                <label for="genre">Favorite genre:</label>
+                <br>
+                <select name="genre" id="genre">
+                    <option value="history">History</option>
+                    <option value="philosophy">Phylosophy</option>
+                    <option value="literature">Literature</option>
+                </select>
+                <br><br>
+                <button type="submit">Submit</button>
+            </form>
         </section>
     </main>
 
