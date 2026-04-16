@@ -12,6 +12,10 @@
             line-height: 1.5;
         }
 
+        header {
+            margin-bottom: 20px;
+        }
+
         h1 {
             color: darkblue;
             text-align: center;
@@ -63,7 +67,16 @@
         }
 
         nav a {
-            color: green;
+            color: darkgreen;
+            padding: 8px 12px;
+            background-color: #e6f2e6;
+            border-radius: 5px;
+            transition: background-color 0.2s;
+        }
+
+        nav a:hover {
+            background-color: #cce5cc;
+            border-radius: 5px;
         }
 
         section p {
@@ -86,6 +99,16 @@
             max-width: 300px;
             display: block;
             margin: 10px auto;
+        }
+
+        .books-layout {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .books-text {
+            flex: 1;
         }
     </style>
 </head>
@@ -115,47 +138,52 @@
         <section id="books" class="section-books">
             <article>
                 <h2>Favorite Books</h2>
-                <p>My favorite books are:</p>
-                <ul>
-                    <li>
-                        <em><a href="https://en.wikipedia.org/wiki/The_Brothers_Karamazov" target="_blank"
-                                rel="noopener noreferrer">The Brothers Karamazov</a></em>
-                    </li>
-                    <li>
-                        <em><a href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow" target="_blank"
-                                rel="noopener noreferrer">Thinking Fast and Slow</a></em>
-                    </li>
-                    <li>
-                        <em><a href="https://en.wikipedia.org/wiki/Guns,_Germs,_and_Steel" target="_blank"
-                                rel="noopener noreferrer">Guns, Germs and Steel</a></em>
-                    </li>
-                </ul>
-                <img src="https://upload.wikimedia.org/wikipedia/en/c/c1/Thinking%2C_Fast_and_Slow.jpg"
-                    alt="Cover of Thinking, Fast and Slow by Daniel Kahneman" />
-                <h3>Book Details</h3>
-                <table>
-                    <caption>Favorite Books and Authors</caption>
-                    <thead>
-                        <tr>
-                            <th>Book</th>
-                            <th>Author</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>The Brothers Karamazov</td>
-                            <td>Fyodor Dostoevsky</td>
-                        </tr>
-                        <tr>
-                            <td>Thinking Fast and Slow</td>
-                            <td>Daniel Kahneman</td>
-                        </tr>
-                        <tr>
-                            <td>Guns, Germs and Steel</td>
-                            <td>Jared Diamond</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="books-layout">
+                    <div class="books-text">
+                        <p>My favorite books are:</p>
+                        <ul>
+                            <li>
+                                <em><a href="https://en.wikipedia.org/wiki/The_Brothers_Karamazov" target="_blank"
+                                        rel="noopener noreferrer">The Brothers Karamazov</a></em>
+                            </li>
+                            <li>
+                                <em><a href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow" target="_blank"
+                                        rel="noopener noreferrer">Thinking Fast and Slow</a></em>
+                            </li>
+                            <li>
+                                <em><a href="https://en.wikipedia.org/wiki/Guns,_Germs,_and_Steel" target="_blank"
+                                        rel="noopener noreferrer">Guns, Germs and Steel</a></em>
+                            </li>
+                        </ul>
+
+                        <h3>Book Details</h3>
+                        <table>
+                            <caption>Favorite Books and Authors</caption>
+                            <thead>
+                                <tr>
+                                    <th>Book</th>
+                                    <th>Author</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>The Brothers Karamazov</td>
+                                    <td>Fyodor Dostoevsky</td>
+                                </tr>
+                                <tr>
+                                    <td>Thinking Fast and Slow</td>
+                                    <td>Daniel Kahneman</td>
+                                </tr>
+                                <tr>
+                                    <td>Guns, Germs and Steel</td>
+                                    <td>Jared Diamond</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/c/c1/Thinking%2C_Fast_and_Slow.jpg"
+                        alt="Cover of Thinking, Fast and Slow by Daniel Kahneman" />
+                </div>
             </article>
         </section>
         <section id="contact" class="section-contact">
