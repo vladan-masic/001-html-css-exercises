@@ -12,6 +12,7 @@
 
         h1 {
             color: darkblue;
+            text-align: center;
         }
 
         h2 {
@@ -20,6 +21,37 @@
 
         p {
             color: black;
+        }
+
+        .section-about {
+            background-color: white;
+        }
+
+        .section-books {
+            background-color: #f0f8ff;
+        }
+
+        .section-contact {
+            background-color: #f5f5f5;
+        }
+
+        section {
+            margin: 20px;
+            padding: 15px;
+            border: 1px solid black;
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: darkblue;
+        }
+
+        a:hover {
+            color: red;
         }
     </style>
 </head>
@@ -34,7 +66,7 @@
         </nav>
     </header>
     <main>
-        <section id="about">
+        <section id="about" class="section-about">
             <article>
                 <h2>About Me</h2>
                 <p>
@@ -46,7 +78,7 @@
                 <p>Favorite genre: History</p>
             </aside>
         </section>
-        <section id="books">
+        <section id="books" class="section-books">
             <article>
                 <h2>Favorite Books</h2>
                 <p>My favorite books are:</p>
@@ -92,7 +124,7 @@
                 </table>
             </article>
         </section>
-        <section id="contact">
+        <section id="contact" class="section-contact">
             <h2>Contact Me</h2>
             <form action="#" method="post">
                 <fieldset>
