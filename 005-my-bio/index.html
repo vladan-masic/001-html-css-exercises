@@ -5,6 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Bio</title>
+    <style>
+        body {
+            background-color: lightgrey;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        h2 {
+            color: darkgreen;
+        }
+
+        p {
+            color: black;
+        }
+    </style>
 </head>
 
 <body>
@@ -51,22 +68,27 @@
                     alt="Cover of Thinking, Fast and Slow by Daniel Kahneman" />
                 <h3>Book Details</h3>
                 <table>
-                    <tr>
-                        <th>Book</th>
-                        <th>Author</th>
-                    </tr>
-                    <tr>
-                        <td>The Brothers Karamazov</td>
-                        <td>Fyodor Dostoevsky</td>
-                    </tr>
-                    <tr>
-                        <td>Thinking Fast and Slow</td>
-                        <td>Daniel Kahneman</td>
-                    </tr>
-                    <tr>
-                        <td>Guns, Germs and Steel</td>
-                        <td>Jared Diamond</td>
-                    </tr>
+                    <caption>Favorite Books and Authors</caption>
+                    <thead>
+                        <tr>
+                            <th>Book</th>
+                            <th>Author</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>The Brothers Karamazov</td>
+                            <td>Fyodor Dostoevsky</td>
+                        </tr>
+                        <tr>
+                            <td>Thinking Fast and Slow</td>
+                            <td>Daniel Kahneman</td>
+                        </tr>
+                        <tr>
+                            <td>Guns, Germs and Steel</td>
+                            <td>Jared Diamond</td>
+                        </tr>
+                    </tbody>
                 </table>
             </article>
         </section>
@@ -75,7 +97,6 @@
             <form action="#" method="post">
                 <fieldset>
                     <legend>Personal Information</legend>
-                    <br>
                     <label for="name">Your Name:</label>
                     <br>
                     <input type="text" placeholder="Enter your Name" id="name" name="name" required>
@@ -91,7 +112,6 @@
                 <br><br>
                 <fieldset>
                     <legend>Preferences</legend>
-                    <br>
                     <input type="checkbox" id="newsletter" name="newsletter">
                     <label for="newsletter">Subscribe to newsletter</label>
                     <br><br>
