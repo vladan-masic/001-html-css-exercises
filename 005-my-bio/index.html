@@ -98,17 +98,33 @@
             width: 100%;
             max-width: 300px;
             display: block;
-            margin: 10px auto;
+            margin: 0;
         }
 
         .books-layout {
             display: flex;
             gap: 20px;
             align-items: flex-start;
+            flex-wrap: wrap;
         }
 
         .books-text {
             flex: 1;
+        }
+
+        .form-row {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+        }
+
+        input,
+        textarea,
+        select {
+            padding: 6px;
+            border-radius: 4px;
+            border: 1px solid #999;
+            width: 100%;
         }
     </style>
 </head>
@@ -191,38 +207,42 @@
             <form action="#" method="post">
                 <fieldset>
                     <legend>Personal Information</legend>
-                    <label for="name">Your Name:</label>
-                    <br>
-                    <input type="text" placeholder="Enter your Name" id="name" name="name" required>
-                    <br><br>
-                    <label for="email">Your Email:</label>
-                    <br>
-                    <input type="email" placeholder="Enter your Email" id="email" name="email" required>
-                    <br><br>
-                    <label for="message">Your Message:</label>
-                    <br>
-                    <textarea placeholder="Your message" id="message" rows="4" name="message" required></textarea>
+                    <div class="form-row">
+                        <label for="name">Your Name:</label>
+
+                        <input type="text" placeholder="Enter your Name" id="name" name="name" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Your Email:</label>
+
+                        <input type="email" placeholder="Enter your Email" id="email" name="email" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="message">Your Message:</label>
+
+                        <textarea placeholder="Your message" id="message" rows="4" name="message" required></textarea>
+                    </div>
                 </fieldset>
-                <br><br>
+
                 <fieldset>
                     <legend>Preferences</legend>
                     <input type="checkbox" id="newsletter" name="newsletter">
                     <label for="newsletter">Subscribe to newsletter</label>
-                    <br><br>
+
                     <p>Preferred contact method</p>
                     <input type="radio" id="email-radio" name="contact-method" value="email">
                     <label for="email-radio">Email</label>
                     <input type="radio" id="phone-radio" name="contact-method" value="phone">
                     <label for="phone-radio">Phone</label>
-                    <br><br>
+
                     <label for="genre">Favorite genre:</label>
-                    <br>
+
                     <select name="genre" id="genre">
                         <option value="history">History</option>
                         <option value="philosophy">Philosophy</option>
                         <option value="literature">Literature</option>
                     </select>
-                    <br><br>
+
                     <button type="submit">Submit</button>
                 </fieldset>
             </form>
