@@ -10,10 +10,28 @@
             --space-small: 10px;
             --space-medium: 20px;
             --space-large: 30px;
+
+            --space-xs: 5px;
+            --space-sm: 8px;
+
+            --color-background: lightgrey;
+            --color-primary: darkgreen;
+            --color-secondary: darkblue;
+            --color-text: darkred;
+
+            --color-section-about: lightyellow;
+            --color-section-books: #f0f8ff;
+            --color-section-contact: #f5f5f5;
+
+            --color-border: #999;
+            --color-table-header: #ddd;
+
+            --color-nav-bg: #e6f2e6;
+            --color-nav-hover: #cce5cc;
         }
 
         body {
-            background-color: lightgrey;
+            background-color: var(--color-background);
             font-family: Arial, sans-serif;
             line-height: 1.5;
         }
@@ -23,25 +41,25 @@
         }
 
         h1 {
-            color: darkblue;
+            color: var(--color-secondary);
             text-align: center;
             font-size: 2em;
             margin-bottom: var(--space-small);
         }
 
         h2 {
-            color: darkgreen;
+            color: var(--color-primary);
             font-size: 1.5em;
             margin-bottom: var(--space-small);
         }
 
         h3 {
-            margin-top: 20px;
+            margin-top: var(--space-medium);
             margin-bottom: var(--space-small);
         }
 
         p {
-            color: darkred;
+            color: var(--color-text);
             margin-bottom: var(--space-small);
         }
 
@@ -51,22 +69,22 @@
         }
 
         .section-about {
-            background-color: lightyellow;
+            background-color: var(--color-section-about);
         }
 
         .section-books {
-            background-color: #f0f8ff;
+            background-color: var(--color-section-books);
         }
 
         .section-contact {
-            background-color: #f5f5f5;
+            background-color: var(--color-section-contact);
         }
 
         section {
             margin: var(--space-medium) 0;
             padding: var(--space-medium);
-            border: 1px solid #999;
-            border-radius: 8px;
+            border: 1px solid var(--color-border);
+            border-radius: var(--space-sm);
             width: 100%;
             max-width: 800px;
         }
@@ -83,8 +101,9 @@
 
         a {
             text-decoration: none;
-            color: darkblue;
+            color: var(--color-secondary);
             display: block;
+            cursor: pointer;
         }
 
         a:hover {
@@ -92,16 +111,16 @@
         }
 
         nav a {
-            color: darkgreen;
-            padding: 8px 12px;
-            background-color: #e6f2e6;
-            border-radius: 5px;
+            color: var(--color-primary);
+            padding: var(--space-sm) var(--space-small);
+            background-color: var(--color-nav-bg);
+            border-radius: var(--space-xs);
             transition: background-color 0.2s;
         }
 
         nav a:hover {
-            background-color: #cce5cc;
-            border-radius: 5px;
+            background-color: var(--color-nav-hover);
+            border-radius: var(--space-xs);
         }
 
         section p {
@@ -127,13 +146,13 @@
 
         th,
         td {
-            border: 1px solid #999;
-            padding: 8px;
+            border: 1px solid var(--color-border);
+            padding: var(--space-sm);
             text-align: left;
         }
 
         th {
-            background-color: #ddd;
+            background-color: var(--color-table-header);
         }
 
         img {
@@ -164,9 +183,9 @@
         input[type="email"],
         textarea,
         select {
-            padding: 6px;
+            padding: var(--space-xs);
             border-radius: 4px;
-            border: 1px solid #999;
+            border: 1px solid var(--color-border);
             width: 100%;
         }
 
@@ -178,18 +197,18 @@
         .form-row-inline {
             display: flex;
             align-items: center;
-            gap: 8px;
+            gap: var(--space-sm);
             margin-bottom: var(--space-medium);
         }
 
         button {
-            padding: 8px 16px;
-            border-radius: 5px;
+            padding: var(--space-sm) var(--space-medium);
+            border-radius: var(--space-xs);
             border: none;
             background-color: #4CAF50;
             color: white;
             cursor: pointer;
-            margin-top: 15px;
+            margin-top: var(--space-medium);
         }
 
         button:hover {
@@ -197,7 +216,7 @@
         }
 
         label {
-            margin-bottom: 5px;
+            margin-bottom: var(--space-xs);
         }
 
         @media (max-width: 600px) {
@@ -211,7 +230,7 @@
             }
 
             section {
-                padding: 15px;
+                padding: var(--space-medium);
             }
 
             nav a {
