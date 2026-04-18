@@ -30,6 +30,8 @@ body {
 
 header {
   margin-bottom: var(--space-medium);
+  padding: var(--space-medium);
+  background-color: white;
 }
 
 h1 {
@@ -216,6 +218,12 @@ button:hover {
 
 label {
   margin-bottom: var(--space-xs);
+}
+
+footer {
+  text-align: center;
+  margin-top: var(--space-large);
+  padding: var(--space-medium);
 }
 
 @media (max-width: 600px) {
