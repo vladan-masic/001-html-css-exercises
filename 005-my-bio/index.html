@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Bio</title>
     <style>
+        :root {
+            --space-small: 10px;
+            --space-medium: 20px;
+            --space-large: 30px;
+        }
+
         body {
             background-color: lightgrey;
             font-family: Arial, sans-serif;
@@ -13,35 +19,35 @@
         }
 
         header {
-            margin-bottom: 20px;
+            margin-bottom: var(--space-medium);
         }
 
         h1 {
             color: darkblue;
             text-align: center;
             font-size: 2em;
-            margin-bottom: 10px;
+            margin-bottom: var(--space-small);
         }
 
         h2 {
             color: darkgreen;
             font-size: 1.5em;
-            margin-bottom: 10px;
+            margin-bottom: var(--space-small);
         }
 
         h3 {
             margin-top: 20px;
-            margin-bottom: 10px;
+            margin-bottom: var(--space-small);
         }
 
         p {
             color: darkred;
-            margin-bottom: 10px;
+            margin-bottom: var(--space-small);
         }
 
         ul {
-            margin-bottom: 15px;
-            padding-left: 20px;
+            margin-bottom: var(--space-medium);
+            padding-left: var(--space-medium);
         }
 
         .section-about {
@@ -57,8 +63,8 @@
         }
 
         section {
-            margin: 20px 0;
-            padding: 20px;
+            margin: var(--space-medium) 0;
+            padding: var(--space-medium);
             border: 1px solid #999;
             border-radius: 8px;
             width: 100%;
@@ -72,7 +78,7 @@
         nav {
             display: flex;
             justify-content: center;
-            gap: 20px;
+            gap: var(--space-medium);
         }
 
         a {
@@ -109,14 +115,14 @@
         main {
             display: flex;
             flex-direction: column;
-            gap: 30px;
+            gap: var(--space-large);
             align-items: center;
         }
 
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 10px;
+            margin-top: var(--space-small);
         }
 
         th,
@@ -139,7 +145,7 @@
 
         .books-layout {
             display: flex;
-            gap: 20px;
+            gap: var(--space-medium);
             align-items: flex-start;
             flex-wrap: wrap;
         }
@@ -151,7 +157,7 @@
         .form-row {
             display: flex;
             flex-direction: column;
-            margin-bottom: 15px;
+            margin-bottom: var(--space-medium);
         }
 
         input[type="text"],
@@ -165,15 +171,15 @@
         }
 
         fieldset {
-            margin-bottom: 20px;
-            padding: 15px;
+            margin-bottom: var(--space-medium);
+            padding: var(--space-medium);
         }
 
         .form-row-inline {
             display: flex;
             align-items: center;
             gap: 8px;
-            margin-bottom: 10px;
+            margin-bottom: var(--space-medium);
         }
 
         button {
