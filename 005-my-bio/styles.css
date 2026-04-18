@@ -60,6 +60,13 @@ ul {
   padding-left: var(--space-medium);
 }
 
+.section-hero {
+  text-align: center;
+  padding: var(--space-large);
+  background-color: white;
+  border-radius: var(--space-sm);
+}
+
 .section-about {
   background-color: var(--color-section-about);
 }
