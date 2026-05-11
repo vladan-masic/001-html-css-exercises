@@ -8,13 +8,10 @@ body {
   line-height: 1.4;
 }
 
-.container {
-  width: 820px;
-  margin: 50px auto;
-}
-
 .product {
   border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
 }
 
 .product-title {
@@ -22,11 +19,7 @@ body {
   font-size: 22px;
   background-color: #f7f7f7;
   text-transform: uppercase;
-  padding: 20px 0;
-}
-
-p, h3, .information-link, li {
-  margin-bottom: 10px;
+  padding: 15px;
 }
 
 .price {
@@ -39,7 +32,7 @@ p, h3, .information-link, li {
   font-size: 12px;
   font-weight: bold;
   color: #777;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .information-link:link, .information-link:visited {
@@ -54,16 +47,22 @@ p, h3, .information-link, li {
 
 .product-details {
   text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
 }
 
 .details-list {
   list-style: square;
-  padding-left: 20px
+  margin-left: 20px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
 }
 
 .add-btn {
   width: 100%;
-  padding: 20px 0;
+  padding: 15px 0;
   border: none;
   border-top: 4px solid black;
   background-color: black;
