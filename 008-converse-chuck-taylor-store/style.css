@@ -24,6 +24,16 @@ body {
   padding: 15px;
 }
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.container {
+  /*   background-color: red; */
+}
+
 .product-img {
   float: left;
   margin-right: 40px;
@@ -33,11 +43,11 @@ body {
   width: 243px;
   float: left;
   margin-right: 40px;
+  margin-top: 20px;
 }
 
 .price {
   font-size: 24px;
-  margin-bottom: 0;
   float: left;
 }
 
@@ -48,10 +58,12 @@ body {
   color: #777;
   margin-bottom: 20px;
   float: right;
+  margin-top: 8px;
 }
 
 .product-description {
   clear: both;
+  margin-bottom: 10px;
 }
 
 .sale {
@@ -72,7 +84,7 @@ body {
 .information-link:visited {
   color: black;
   margin-bottom: 30px;
-  display: block;
+  display: inline-block;
 }
 
 .information-link:hover,
@@ -85,7 +97,6 @@ body {
   width: 22px;
   height: 22px;
   margin-right: 10px;
-  margin-bottom: 30px;
 }
 
 .color-black {
@@ -116,6 +127,7 @@ body {
 .product-details {
   width: 243px;
   float: left;
+  margin-top: 20px;
 }
 
 .details-title {
