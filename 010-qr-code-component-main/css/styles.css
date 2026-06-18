@@ -1,5 +1,4 @@
 * {
-  padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
@@ -7,13 +6,11 @@
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
-  position: relative;
 }
 
 main {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -24,6 +21,7 @@ main {
   text-align: center;
   padding: 17px;
   border-radius: 20px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .qr-code {
@@ -46,6 +44,7 @@ p {
 
 .card-text {
   padding: 15px;
+  line-height: 1.5;
 }
 
 .attribution {
