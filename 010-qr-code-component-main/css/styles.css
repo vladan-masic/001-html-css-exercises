@@ -29,6 +29,7 @@ main {
 .qr-code {
   width: 100%;
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 h1 {
