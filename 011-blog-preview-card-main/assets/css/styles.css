@@ -26,11 +26,13 @@ body {
   padding: 20px;
   border: 1px solid var(--gray-950);
   border-radius: 15px;
+  box-shadow: 7px 7px;
 }
 
 .ilustration {
   width: 100%;
   border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .learning {
@@ -38,8 +40,41 @@ body {
   width: 100px;
   background-color: var(--yellow);
   border-radius: 5px;
+  font-size: 12px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.date {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+.title:hover {
+  color: var(--yellow);
+}
+
+.description {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: var(--gray-500);
+  line-height: 1.5;
 }
 
 .author {
   display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 900;
+  font-size: 12px;
+}
+
+.author-pic {
+  width: 30px;
 }
