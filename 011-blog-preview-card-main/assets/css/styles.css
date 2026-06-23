@@ -22,7 +22,7 @@ body {
 
 .card {
   background-color: var(--white);
-  max-width: 300px;
+  max-width: 320px;
   padding: 20px;
   border: 1px solid var(--gray-950);
   border-radius: 15px;
@@ -36,8 +36,11 @@ body {
 }
 
 .learning {
-  padding: 5px 10px;
-  width: 100px;
+  width: 70px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--yellow);
   border-radius: 5px;
   font-size: 12px;
@@ -51,13 +54,14 @@ body {
 }
 
 .title {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 900;
   margin-bottom: 15px;
 }
 
 .title:hover {
   color: var(--yellow);
+  cursor: pointer;
 }
 
 .description {
