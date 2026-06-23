@@ -13,8 +13,33 @@
 
 body {
   background-color: var(--yellow);
+  font-family: "Figtree", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
   background-color: var(--white);
+  max-width: 300px;
+  padding: 20px;
+  border: 1px solid var(--gray-950);
+  border-radius: 15px;
+}
+
+.ilustration {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.learning {
+  padding: 5px 10px;
+  width: 100px;
+  background-color: var(--yellow);
+  border-radius: 5px;
+}
+
+.author {
+  display: flex;
 }
