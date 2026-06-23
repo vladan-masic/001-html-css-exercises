@@ -22,7 +22,7 @@ body {
 
 .card {
   background-color: var(--white);
-  max-width: 320px;
+  max-width: 375px;
   padding: 20px;
   border: 1px solid var(--gray-950);
   border-radius: 15px;
@@ -36,25 +36,25 @@ body {
 }
 
 .learning {
-  width: 70px;
-  height: 25px;
+  width: 80px;
+  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--yellow);
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 900;
   margin-bottom: 10px;
 }
 
 .date {
   margin-bottom: 15px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .title {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 900;
   margin-bottom: 15px;
 }
@@ -66,7 +66,7 @@ body {
 
 .description {
   margin-bottom: 15px;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--gray-500);
   line-height: 1.5;
 }
@@ -76,7 +76,7 @@ body {
   align-items: center;
   gap: 10px;
   font-weight: 900;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .author-pic {
