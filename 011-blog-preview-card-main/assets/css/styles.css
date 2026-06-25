@@ -64,13 +64,18 @@ body {
 .title-link:visited {
   text-decoration: none;
   color: var(--gray-950);
+  cursor: pointer;
 }
 
 .title-link:hover,
 .title-link:active,
 .title-link:focus-visible {
   color: var(--yellow);
-  cursor: pointer;
+}
+
+.title-link:focus-visible {
+  outline: 1px solid var(--gray-950);
+  outline-offset: 5px;
 }
 
 .description {
