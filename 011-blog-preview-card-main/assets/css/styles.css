@@ -18,6 +18,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .card {
@@ -44,7 +45,7 @@ body {
   background-color: var(--yellow);
   border-radius: 5px;
   font-size: 14px;
-  font-weight: 900;
+  font-weight: 800;
   margin-bottom: 12px;
 }
 
@@ -66,7 +67,8 @@ body {
 }
 
 .title-link:hover,
-.title-link:active {
+.title-link:active,
+.title-link:focus-visible {
   color: var(--yellow);
   cursor: pointer;
 }
@@ -82,7 +84,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 14px;
   margin-bottom: 6px;
   color: var(--gray-950);
