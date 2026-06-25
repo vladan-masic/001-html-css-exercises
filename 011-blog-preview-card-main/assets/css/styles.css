@@ -14,7 +14,7 @@
 body {
   background-color: var(--yellow);
   font-family: "Figtree", sans-serif;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +29,7 @@ body {
   box-shadow: 8px 8px;
 }
 
-.ilustration {
+.illustration {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 15px;
@@ -59,7 +59,14 @@ body {
   margin-bottom: 18px;
 }
 
-.title:hover {
+.title-link:link,
+.title-link:visited {
+  text-decoration: none;
+  color: var(--gray-950);
+}
+
+.title-link:hover,
+.title-link:active {
   color: var(--yellow);
   cursor: pointer;
 }
@@ -78,6 +85,7 @@ body {
   font-weight: 900;
   font-size: 14px;
   margin-bottom: 6px;
+  color: var(--gray-950);
 }
 
 .author-pic {
