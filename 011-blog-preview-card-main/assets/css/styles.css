@@ -27,26 +27,29 @@ body {
   padding: 20px;
   border: 1px solid var(--gray-950);
   border-radius: 15px;
-  box-shadow: 8px 8px;
+  box-shadow: 8px 8px 0 var(--gray-950);
 }
 
 .illustration {
   width: 100%;
   border-radius: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
 
 .learning {
-  width: 80px;
+  /* width: 80px;
   height: 30px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+
+  display: inline-block;
+  padding: 4px 12px;
   background-color: var(--yellow);
   border-radius: 5px;
   font-size: 14px;
   font-weight: 800;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
 }
 
 .date {
@@ -91,10 +94,12 @@ body {
   gap: 10px;
   font-weight: 800;
   font-size: 14px;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
   color: var(--gray-950);
 }
 
 .author-pic {
   width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
