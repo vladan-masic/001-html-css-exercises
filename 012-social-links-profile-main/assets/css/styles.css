@@ -3,3 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+
+main {
+  background-color: var(--grey-900);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 375px;
+  color: var(--white);
+}
