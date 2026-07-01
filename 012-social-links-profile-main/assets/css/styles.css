@@ -44,3 +44,16 @@ main {
   height: 9rem;
   border-radius: 50%;
 }
+
+.links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.link {
+  list-style: none;
+  background-color: var(--grey-700);
+  padding: 1rem;
+  text-align: center;
+}
