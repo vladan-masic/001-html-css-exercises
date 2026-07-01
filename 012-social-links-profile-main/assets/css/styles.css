@@ -26,6 +26,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 2rem;
 }
 
 .card {
@@ -43,6 +44,24 @@ main {
   width: 9rem;
   height: 9rem;
   border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.profile-name {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.profile-place {
+  margin-bottom: 2rem;
+  color: var(--green);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.profile-description {
+  margin-bottom: 1.8rem;
+  font-size: 1.2rem;
 }
 
 .links-list {
