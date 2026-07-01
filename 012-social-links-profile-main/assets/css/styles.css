@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
 :root {
   --green: hsl(75, 94%, 57%);
   --white: hsl(0, 0%, 100%);
@@ -21,6 +29,18 @@ main {
 }
 
 .card {
-  max-width: 375px;
+  max-width: 37.5rem;
   color: var(--white);
+  background-color: var(--grey-800);
+  padding: 5rem;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile-image {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
 }
