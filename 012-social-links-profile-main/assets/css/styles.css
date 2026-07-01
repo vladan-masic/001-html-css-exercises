@@ -22,18 +22,18 @@ body {
 
 main {
   background-color: var(--grey-900);
+  min-width: 38rem;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
 }
 
 .card {
   max-width: 37.5rem;
   color: var(--white);
   background-color: var(--grey-800);
-  padding: 3rem;
+  padding: 3.2rem;
   border-radius: 1rem;
 }
 
@@ -71,13 +71,28 @@ main {
   gap: 1.5rem;
 }
 
-.link {
+.links-list-item {
   list-style: none;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
   background-color: var(--grey-700);
-  width: 27rem;
+  /* width: 27rem; */
+  width: 100%;
   padding: 1.1rem;
   text-align: center;
+  text-decoration: none;
   font-size: 1.2rem;
   font-weight: 700;
+  color: var(--white);
   border-radius: 0.7rem;
+  transition: all 0.5s;
+}
+
+.link:hover,
+.link:active {
+  color: var(--grey-900);
+  background-color: var(--green);
 }
