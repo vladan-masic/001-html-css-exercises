@@ -79,7 +79,7 @@ main {
 .link:visited {
   display: inline-block;
   background-color: var(--grey-700);
-  /* width: 27rem; */
+  /* TODO: Adjust responsive margins for the card */
   width: 100%;
   padding: 1.1rem;
   text-align: center;
@@ -88,7 +88,9 @@ main {
   font-weight: 700;
   color: var(--white);
   border-radius: 0.7rem;
-  transition: all 0.5s;
+  transition:
+    color 0.3s ease,
+    background-color 0.3s ease;
 }
 
 .link:hover,
