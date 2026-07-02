@@ -42,14 +42,14 @@ main {
 }
 
 .profile-image {
-  width: 8.6rem;
-  height: 8.6rem;
+  width: 8.4rem;
+  height: 8.4rem;
   border-radius: 50%;
   margin-bottom: 2.8rem;
 }
 
 .profile-name {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
@@ -57,7 +57,7 @@ main {
 .profile-place {
   margin-bottom: 2rem;
   color: var(--green);
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 600;
 }
 
