@@ -23,6 +23,7 @@ body {
 main {
   background-color: var(--grey-900);
   min-width: 38rem;
+  /* padding: 10rem; */
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -30,7 +31,7 @@ main {
 }
 
 .card {
-  max-width: 40rem;
+  max-width: 36rem;
   color: var(--white);
   background-color: var(--grey-800);
   padding: 3.5rem;
@@ -55,14 +56,14 @@ main {
 }
 
 .profile-place {
-  margin-bottom: 2rem;
+  margin-bottom: 2.4rem;
   color: var(--green);
   font-size: 1.2rem;
   font-weight: 600;
 }
 
 .profile-description {
-  margin-bottom: 1.8rem;
+  margin-bottom: 2.4rem;
   font-size: 1.2rem;
 }
 
@@ -82,7 +83,7 @@ main {
   background-color: var(--grey-700);
   /* TODO: Adjust responsive margins for the card */
   width: 100%;
-  padding: 1.1rem 8.6rem;
+  padding: 1.3rem 8.6rem;
   text-align: center;
   text-decoration: none;
   font-size: 1.2rem;
