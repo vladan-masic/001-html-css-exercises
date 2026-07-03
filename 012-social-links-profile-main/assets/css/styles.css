@@ -23,7 +23,7 @@ body {
 main {
   background-color: var(--grey-900);
   min-width: 38rem;
-  /* padding: 10rem; */
+  padding: 2.4rem;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -34,7 +34,7 @@ main {
   max-width: 36rem;
   color: var(--white);
   background-color: var(--grey-800);
-  padding: 3.6rem;
+  padding: 3.8rem 3.6rem;
   border-radius: 1rem;
 }
 
@@ -81,7 +81,6 @@ main {
 .link:visited {
   display: inline-block;
   background-color: var(--grey-700);
-  /* TODO: Adjust responsive margins for the card */
   width: 100%;
   padding: 1.3rem 8.6rem;
   text-align: center;
@@ -93,6 +92,7 @@ main {
   transition:
     color 0.3s ease,
     background-color 0.3s ease;
+  white-space: nowrap;
 }
 
 .link:hover,
