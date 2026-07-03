@@ -34,7 +34,7 @@ main {
   max-width: 36rem;
   color: var(--white);
   background-color: var(--grey-800);
-  padding: 4rem 3.8rem;
+  padding: 4.2rem 3.8rem;
   border-radius: 1rem;
 }
 
@@ -56,7 +56,7 @@ main {
 }
 
 .profile-place {
-  margin-bottom: 2.4rem;
+  margin-bottom: 2.6rem;
   color: var(--green);
   font-size: 1.3rem;
   font-weight: 600;
