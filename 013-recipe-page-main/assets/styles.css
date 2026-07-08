@@ -24,6 +24,12 @@ html {
 
 body {
   background-color: var(--stone-100);
+  font-family: "Outfit", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Young Serif", serif;
 }
 
 .main-container {
