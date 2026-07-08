@@ -25,11 +25,22 @@ html {
 body {
   background-color: var(--stone-100);
   font-family: "Outfit", sans-serif;
+  color: var(--stone-600);
 }
 
 h1,
 h2 {
   font-family: "Young Serif", serif;
+}
+
+h1 {
+  margin-bottom: 2.2rem;
+  color: var(--stone-900);
+}
+
+h2 {
+  margin-bottom: 1.6rem;
+  color: var(--brown-800);
 }
 
 .main-container {
@@ -43,4 +54,13 @@ h2 {
 .image-omelette {
   width: 100%;
   border-radius: 1.6rem;
+}
+
+.preparation {
+  padding: 2.8rem;
+  background-color: var(--rose-50);
+}
+
+.preparation-time {
+  color: var(--rose-800);
 }
