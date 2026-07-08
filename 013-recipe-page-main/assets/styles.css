@@ -74,6 +74,10 @@ li {
   color: var(--rose-800);
 }
 
+.nutrition-table {
+  width: 100%;
+}
+
 .nutrition-table-numbers {
   color: var(--brown-800);
   font-weight: 600;
