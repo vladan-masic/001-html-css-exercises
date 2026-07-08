@@ -43,6 +43,15 @@ h2 {
   color: var(--brown-800);
 }
 
+ul,
+ol {
+  padding: 1.3rem;
+}
+
+li {
+  padding-left: 1.2rem;
+}
+
 .main-container {
   max-width: 120rem;
   margin: 9.6rem auto;
@@ -63,4 +72,9 @@ h2 {
 
 .preparation-time {
   color: var(--rose-800);
+}
+
+.nutrition-table-numbers {
+  color: var(--brown-800);
+  font-weight: 600;
 }
