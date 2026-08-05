@@ -36,11 +36,19 @@ h2 {
 h1 {
   margin-bottom: 2.2rem;
   color: var(--stone-900);
+  font-size: 4.2rem;
 }
 
 h2 {
   margin-bottom: 1.6rem;
   color: var(--brown-800);
+  font-size: 3.2rem;
+}
+
+p,
+li,
+td {
+  font-size: 1.6rem;
 }
 
 ul,
@@ -72,6 +80,12 @@ li {
 
 .preparation-time {
   color: var(--rose-800);
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.bold-600 {
+  font-weight: 600;
 }
 
 .nutrition-table {
