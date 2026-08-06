@@ -26,6 +26,8 @@ body {
   background-color: var(--stone-100);
   font-family: "Outfit", sans-serif;
   color: var(--stone-600);
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 h1,
@@ -43,6 +45,14 @@ h2 {
   margin-bottom: 1.6rem;
   color: var(--brown-800);
   font-size: 3.2rem;
+}
+
+.preparation,
+.ingredients,
+.instructions,
+.nutrition {
+  margin-top: 3.2rem;
+  margin-bottom: 3.2rem;
 }
 
 p,
