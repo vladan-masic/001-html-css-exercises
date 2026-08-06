@@ -97,9 +97,17 @@ li {
 .bold-600 {
   font-weight: 600;
 }
+.separator {
+  border-bottom: 1px solid var(--stone-150);
+}
 
 .nutrition-table {
   width: 100%;
+}
+
+td {
+  border-bottom: 1px solid var(--stone-150);
+  padding: 1.4rem 3.2rem;
 }
 
 .nutrition-table-numbers {
