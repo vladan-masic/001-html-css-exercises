@@ -43,7 +43,6 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 1.6rem;
   color: var(--brown-800);
   font-size: 3.2rem;
 }
@@ -53,7 +52,6 @@ h2 {
 .instructions,
 .nutrition {
   margin-top: 3.2rem;
-  margin-bottom: 3.2rem;
 }
 
 p,
@@ -83,10 +81,11 @@ li {
 .image-omelette {
   width: 100%;
   border-radius: 1.6rem;
+  margin-bottom: 3.2rem;
 }
 
 .preparation {
-  padding: 2.8rem;
+  padding: 2.8rem 2.8rem 0 2.8rem;
   background-color: var(--rose-50);
 }
 
@@ -101,6 +100,11 @@ li {
 }
 .separator {
   border-bottom: 1px solid var(--stone-150);
+}
+
+.nutrition h2,
+.nutrition p {
+  margin-bottom: 2.4rem;
 }
 
 .nutrition-table {
