@@ -1,0 +1,32 @@
+body {
+    margin: 20px;
+    font-family: Brush Script MT, monospace;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #70A9A1;
+    color: #1F363D;
+    border-bottom: 6px solid #40798C;
+    border-right: 3px solid #40798C;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #70A9A1;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
