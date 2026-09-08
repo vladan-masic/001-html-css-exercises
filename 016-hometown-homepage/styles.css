@@ -44,6 +44,17 @@ body {
 
 .activities {
   background-color: var(--light);
+  padding: 36px;
+}
+
+.activities h3 {
+  margin-top: 0;
+}
+
+.activities-options {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
 }
 
 .activities-img {
@@ -72,7 +83,7 @@ body {
 }
 
 .guide-profile-img {
-  width: 45%;
+  width: 50%;
   border-radius: 10px;
 }
 
