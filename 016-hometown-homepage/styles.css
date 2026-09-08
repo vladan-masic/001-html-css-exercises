@@ -8,7 +8,16 @@ DARK BLUE: #1D3557
 
 */
 
+:root {
+  --light: #f1faee;
+  --aqua: #a8dadc;
+  --light-blue: #457b9d;
+  --dark-blue: #1d3557;
+}
+
 body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dark-blue);
   margin: 0;
   padding: 0;
   text-align: center;
@@ -22,5 +31,25 @@ img {
 .hero {
   background-image: url("images/Kraljevo-museum.jpg");
   background-size: cover;
-  height: 350px;
+  height: 500px;
+  color: var(--light);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-primary {
+  background-color: var(--dark-blue);
+}
+
+.title-secondary {
+  background-color: var(--light-blue);
+}
+
+.activities {
+  background-color: var(--light);
+}
+
+.activities-img {
+  border-radius: 50%;
 }
