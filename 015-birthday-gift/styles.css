@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  font-family: "Happy Monkey", cursive;
+  font-family: "Bonheur Royale", cursive;
   background: linear-gradient(#a2d2ff, #efb0c9);
   color: #ffffff;
 }
@@ -62,7 +62,7 @@ p {
   height: 400px;
   border: 6px solid white;
   border-radius: 10px;
-  background-image: url("images/gift-cover.jpg");
+  background-image: url("images/gift.png");
   background-size: cover;
 }
 
@@ -70,20 +70,20 @@ p {
   background-image: url("images/happy.gif");
 }
 
-#gift-img-hot:hover {
-  background-image: url("images/hot.gif");
+#gift-img-scared:hover {
+  background-image: url("images/scared.gif");
 }
 
-#gift-img-genius:hover {
-  background-image: url("images/genius.gif");
+#gift-img-virgin:hover {
+  background-image: url("images/virgin.jpg");
 }
 
 #gift-img-badass:hover {
   background-image: url("images/badass.gif");
 }
 
-#gift-img-cheers:hover {
-  background-image: url("images/cheers.gif");
+#gift-img-kittens:hover {
+  background-image: url("images/kittens.gif");
 }
 
 #footer {
