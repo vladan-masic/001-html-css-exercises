@@ -32,14 +32,22 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 16px;
 }
 
 .title-primary {
   background-color: var(--dark-blue);
+  border-radius: 10px;
+  padding: 8px 16px;
+  margin: 0 16px;
 }
 
 .title-secondary {
   background-color: var(--light-blue);
+  border-radius: 10px;
+  padding: 8px 32px;
+  margin: 0 16px;
 }
 
 .activities {
