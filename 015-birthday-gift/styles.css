@@ -1,7 +1,7 @@
 body {
   text-align: center;
   font-family: "Bonheur Royale", cursive;
-  background: linear-gradient(#a2d2ff, #efb0c9);
+  background: linear-gradient(#ff6b6c, #ffc145);
   color: #ffffff;
 }
 
@@ -16,12 +16,12 @@ p {
 #bff-img {
   width: 150px;
   border-radius: 50%;
-  border: 6px solid #efb0c9;
+  border: 6px solid #5b5f97;
   margin-bottom: 10px;
 }
 
 #bday-age {
-  background: #efb0c9;
+  background: #5b5f97;
   padding: 5px 10px;
   border-radius: 5px;
   margin: 5px 0 10px 0;
@@ -29,7 +29,7 @@ p {
 
 #bday-date {
   margin: 0;
-  background: #efb0c9;
+  background: #5b5f97;
   padding: 5px 10px;
   border-radius: 5px;
 }
@@ -90,6 +90,7 @@ p {
   font-style: italic;
   width: 400px;
   margin: 40px auto 20px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 a {
