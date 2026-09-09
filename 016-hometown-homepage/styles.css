@@ -110,3 +110,14 @@ body {
 .quote {
   font-style: italic;
 }
+
+@media (max-width: 400px) {
+  .activities-options {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .activity {
+    width: 100%;
+  }
+}
