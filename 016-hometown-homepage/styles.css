@@ -1,13 +1,3 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
-*/
-
 :root {
   --light: #f1faee;
   --aqua: #a8dadc;
@@ -111,7 +101,7 @@ body {
   font-style: italic;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .activities-options {
     flex-direction: column;
     align-items: center;
